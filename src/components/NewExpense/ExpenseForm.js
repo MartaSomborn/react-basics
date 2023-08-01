@@ -64,9 +64,7 @@ const ExpenseForm = ({ onSaveExpenseDate, onCancelExpenseForm }) => {
         <button type="button" onClick={onCancelExpenseForm}>
           Cancel
         </button>
-        <button type="submit" onClick={onCancelExpenseForm}>
-          Add Expense
-        </button>
+        <button type="submit">Add Expense</button>
       </div>
     </form>
   );
